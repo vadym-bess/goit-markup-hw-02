@@ -1,4 +1,10 @@
+:root{
+    --accent-color: #2196F3;
+}
+
 .body{
+    color: #757575;
+    background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -6,8 +12,12 @@
     letter-spacing: 0.03em;
 }
 
+h2, h3{
+    color: #212121;
+}
+
 .logo{
-    color: #2196F3;;
+    color: var(--accent-color);
     text-decoration: none;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -23,5 +33,27 @@
     font-size: 26px;
     line-height: 1.2;
     letter-spacing: 0.03em;
+}
+.nav-link{
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    
+}
 
+.nav-link:hover {
+    color: var(--accent-color);
+}
+
+.button{
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+ul{
+     list-style: none;
+        
 }
