@@ -56,3 +56,11 @@ ul{
      list-style: none;
         
 }
+
+.first-button:hover{
+color: #ffffff;
+}
+
+.first-button:hover {
+   background-color: var(--accent-color);
+}
