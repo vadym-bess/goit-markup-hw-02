@@ -5,6 +5,7 @@
     --title-text-color: #212121;
     --secont-title-text-color: #ffffff;
     --secondary-section-background: #2F303A;
+    --footer-adress-color:rgba(255, 255, 255, 0.6)
 }
 
 body{
@@ -32,6 +33,11 @@ body{
     color: var(--secont-title-text-color);
 }
 
+.hidden-title{
+    visibility: hidden;
+
+}
+
 .secondary-title{
     color: var(--title-text-color);
 }
@@ -50,7 +56,7 @@ body{
     text-decoration: underline;
 }
 .studio{
-    color: #000000;
+    color: var(--title-text-color);
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 700;
@@ -86,7 +92,7 @@ body{
 
 .button{
     cursor: pointer;
-    color: #ffffff;
+    color: var(--secont-title-text-color);
     background-color: var(--accent-color);
 }
 
@@ -102,7 +108,7 @@ ul{
 }
 
 .first-button:hover{
-    color: #ffffff;
+    color: var(--secont-title-text-color);
     background-color: var(--accent-color);
     text-decoration: underline;
 }
@@ -113,7 +119,7 @@ ul{
 }
 
 .first-button:focus {
-    color: #ffffff;
+    color:  var(--secont-title-text-color);
     background-color: var(--accent-color);
     text-decoration: underline;
 }
@@ -145,7 +151,7 @@ img{
     color: var(--secont-title-text-color);
 }
 
-..footer-studio:hover{
+.footer-studio:hover{
     text-decoration: underline;
 }
 
@@ -168,7 +174,7 @@ img{
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
-    color: rgba(255, 255, 255, 0.6)
+    color: var(--footer-adress-color)
 }
 
 .footer-mail-tel:hover{
