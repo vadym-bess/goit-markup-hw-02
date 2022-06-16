@@ -170,7 +170,7 @@ img{
 }
 .footer-mail-tel{
     text-decoration: none;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
