@@ -111,7 +111,8 @@ body{
     }
 
 
-.button{
+.hero-button{
+    position:;
     cursor: pointer;
     color: var(--secont-title-text-color);
     background-color: var(--accent-color);
