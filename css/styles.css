@@ -42,6 +42,16 @@ body{
     color: var(--title-text-color);
 }
 
+.secondary-title:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+}
+
+.text:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+}
+
 .logo{
     color: var(--accent-color);
     text-decoration: none;
@@ -76,17 +86,20 @@ body{
 .nav-link:hover {
     color: var(--accent-color);
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 .nav-link:active {
     color: var(--accent-color);
+    text-decoration-color: var(--accent-color);
 }
 
 .nav-link:focus {
     color: var(--accent-color);
+    text-decoration-color: var(--accent-color);
 }
 
-.nav-link:current{
+.nav-link{
     text-decoration: underline;
 }
 
@@ -98,6 +111,7 @@ body{
 
 .button:hover{
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 
 }
 
@@ -111,36 +125,48 @@ ul{
     color: var(--secont-title-text-color);
     background-color: var(--accent-color);
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 .first-button:active {
     background-color: var(--accent-color);
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 .first-button:focus {
     color:  var(--secont-title-text-color);
     background-color: var(--accent-color);
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 img{
     width: 370;
 }
 
+.img:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+}
+
+
 .tel{
     color: var(--text-color);
     text-decoration: none;
+    text-decoration-color: var(--accent-color);
 }
 
 .tel:hover{
     color: var(--accent-color);
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 .tel:focus{
     color: var(--accent-color);
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 .footer{
@@ -153,6 +179,7 @@ img{
 
 .footer-studio:hover{
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
 
 .footer-adress{
@@ -165,8 +192,9 @@ img{
 }
 
 .footer-adress:hover{
-    text-decoration-color: var(--accent-color);
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+   
 }
 .footer-mail-tel{
     text-decoration: none;
@@ -178,6 +206,6 @@ img{
 }
 
 .footer-mail-tel:hover{
-    text-decoration-color: var(--accent-color);
     text-decoration: underline;
+    text-decoration-color: var(--accent-color);
 }
