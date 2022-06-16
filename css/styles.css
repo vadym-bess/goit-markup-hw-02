@@ -33,6 +33,11 @@ body{
     color: var(--secont-title-text-color);
 }
 
+.hero-title:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+}
+
 .hidden-title{
     visibility: hidden;
 
@@ -99,9 +104,6 @@ body{
     text-decoration-color: var(--accent-color);
 }
 
-.nav-link{
-    text-decoration: underline;
-}
 
 .button{
     cursor: pointer;
@@ -115,10 +117,8 @@ body{
 
 }
 
-
 ul{
-    list-style: none;
-        
+    list-style: none;    
 }
 
 .first-button:hover{
@@ -144,12 +144,6 @@ ul{
 img{
     width: 370;
 }
-
-.img:hover{
-    text-decoration: underline;
-    text-decoration-color: var(--accent-color);
-}
-
 
 .tel{
     color: var(--text-color);
