@@ -104,6 +104,12 @@ body{
     text-decoration-color: var(--accent-color);
 }
 
+.nav-link.current{
+    color: var(--accent-color);
+    text-decoration: underline;
+    text-decoration-color: var(--accent-color);
+    }
+
 
 .button{
     cursor: pointer;
