@@ -7,6 +7,8 @@
     --secondary-section-background: #2F303A;
     --footer-adress-color:rgba(255, 255, 255, 0.6);
     --portfolio-buttons-bgc: #F5F4FA;
+    --grey-bgc: #F5F4FA;
+    --light-grey-bgc: #E5E5E5;
 }
 
 body{
@@ -156,12 +158,16 @@ body{
     cursor: pointer;
 }
 
+.hero-button:focus{
+    color: var(--secont-title-text-color);
+}
+
 
 ul{
     list-style: none;    
 }
 
-.first-button{
+.first-buttons{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -173,12 +179,12 @@ ul{
     background-color: var(--portfolio-buttons-bgc);
 }
 
-.first-button:hover{
+.first-buttons:hover{
     color: var(--secont-title-text-color);
     background-color: var(--accent-color);
 }
 
-.first-button:focus {
+.first-buttons:focus {
     color:  var(--secont-title-text-color);
     background-color: var(--accent-color);
 }
@@ -203,23 +209,18 @@ ul{
     line-height: 1.14;
 }
 
-.link-mail:hover{
+.link-mail:hover, :focus{
     color: var(--accent-color);
 }
 
-.link-mail:focus {
+
+
+.tel:hover,:focus{
     color: var(--accent-color);
 }
 
-.tel:hover{
-    color: var(--accent-color);
-}
 
-.tel:focus{
-    color: var(--accent-color);
-}
-
-.footer{
+footer{
     background-color: var(--secondary-section-background);
 }
 
@@ -246,10 +247,14 @@ ul{
     color: var(--footer-adress-color)
 }
 
-.footer-mail-tel:hover{
+.footer-mail-tel:hover, :focus{
    color: var(--accent-color);
 }
 
-.footer-mail-tel:focus {
-    color: var(--accent-color);
+.grey-bgc{
+    background-color: var(--grey-bgc);
+}
+
+.light-grey-bgc{
+    background-color: var(--light-grey-bgc);
 }
