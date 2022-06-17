@@ -256,7 +256,3 @@ footer{
 .grey-bgc{
     background-color: var(--grey-bgc);
 }
-
-.light-grey-bgc{
-    background-color: var(--light-grey-bgc);
-}
