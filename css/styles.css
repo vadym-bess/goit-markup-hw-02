@@ -215,7 +215,7 @@ ul{
 
 
 
-.tel:hover,:focus{
+.tel:hover, :focus{
     color: var(--accent-color);
 }
 
@@ -229,6 +229,7 @@ footer{
 }
 
 .footer-adress{
+    color: var(--secont-title-text-color);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -238,13 +239,14 @@ footer{
 }
 
 .footer-mail-tel{
+    color: var(--footer-adress-color);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
     line-height: 1.7;
-    color: var(--footer-adress-color)
+
 }
 
 .footer-mail-tel:hover, :focus{
