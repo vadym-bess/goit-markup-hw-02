@@ -133,11 +133,6 @@ body{
     color: var(--accent-color);
 }
 
-.nav-link:active {
-    color: var(--accent-color);
-
-}
-
 .nav-link:focus {
     color: var(--accent-color);
 }
@@ -145,7 +140,6 @@ body{
 .nav-link.current{
     color: var(--accent-color);
 }
-
 
 .hero-button{
     color: var(--secont-title-text-color);
@@ -181,10 +175,6 @@ ul{
 
 .first-button:hover{
     color: var(--secont-title-text-color);
-    background-color: var(--accent-color);
-}
-
-.first-button:active {
     background-color: var(--accent-color);
 }
 
