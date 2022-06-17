@@ -11,6 +11,10 @@
     --light-grey-bgc: #E5E5E5;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     color: var(--text-color);
     background-color:var(--background-color);
@@ -19,6 +23,7 @@ body{
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+
 .description{
     color: var(--text-color);
     font-family: 'Roboto',sans-serif;
