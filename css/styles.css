@@ -183,10 +183,6 @@ ul{
     background-color: var(--accent-color);
 }
 
-img{
-    width: 370;
-}
-
 .tel {
     text-decoration: none;
     color: var(--text-color);
