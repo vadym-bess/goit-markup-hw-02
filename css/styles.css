@@ -5,7 +5,8 @@
     --title-text-color: #212121;
     --secont-title-text-color: #ffffff;
     --secondary-section-background: #2F303A;
-    --footer-adress-color:rgba(255, 255, 255, 0.6)
+    --footer-adress-color:rgba(255, 255, 255, 0.6);
+    --portfolio-buttons-bgc: #F5F4FA;
 }
 
 body{
@@ -16,6 +17,27 @@ body{
     line-height: 1.7;
     letter-spacing: 0.03em;
 }
+.description{
+    color: var(--text-color);
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+.profesions{
+    color: var(--text-color);
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
 
 .hero-sectoin{
     background-color: var(--secondary-section-background)
@@ -39,13 +61,43 @@ body{
 }
 
 .secondary-title{
+    color: var(--title-text-color);
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+.third-title{
+    color: var(--title-text-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+}
+
+.h3-title{
     color: var(--title-text-color);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.name-title{
+    color: var(--title-text-color);
+    font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
 }
 
 .logo{
@@ -97,14 +149,35 @@ body{
 
 
 .hero-button{
-    cursor: pointer;
     color: var(--secont-title-text-color);
     background-color: var(--accent-color);
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
 }
 
 
 ul{
     list-style: none;    
+}
+
+.first-button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--portfolio-buttons-bgc);
 }
 
 .first-button:hover{
