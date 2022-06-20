@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 :root{
     --accent-color: #2196F3;
     --text-color: #757575;
@@ -104,6 +110,7 @@ body{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.03em;
+
 }
 
 .logo{
@@ -166,7 +173,6 @@ body{
 .hero-button:focus{
     color: var(--secont-title-text-color);
 }
-
 
 ul{
     list-style: none;    
