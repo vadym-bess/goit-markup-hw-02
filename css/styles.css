@@ -82,6 +82,7 @@ body{
 }
 
 .hero-title {
+    display: inline-block;
     margin-top: 0;
     margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
@@ -109,6 +110,8 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     }
     
 .hero-button:focus {
@@ -116,6 +119,9 @@ body{
         }
 
 .description{
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding-bottom: 20px;
     color: var(--text-color);
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -152,6 +158,8 @@ body{
     letter-spacing: 0.03em;
 }
 .third-title{
+    margin-top: 20px;
+    margin-bottom: 0;
     color: var(--title-text-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -184,6 +192,8 @@ body{
 }
 
 .logo{
+    display: inline-block;
+    margin-bottom: 20px;
     color: var(--accent-color);
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
@@ -233,6 +243,7 @@ ul{
 }
 
 .first-buttons{
+    border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -286,16 +297,19 @@ ul{
     color: var(--accent-color);
 }
 
-
-footer{
+.footer{
     background-color: var(--secondary-section-background);
 }
+
 
 .footer-studio{
     color: var(--secont-title-text-color);
 }
 
 .footer-adress{
+    display: inline-block;
+    margin: 0;
+    margin-bottom: 9px;
     color: var(--secont-title-text-color);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -306,6 +320,9 @@ footer{
 }
 
 .footer-mail-tel{
+    display: inline-block;
+    margin-top: 0;
+    margin-bottom: 9px;
     color: var(--footer-adress-color);
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
