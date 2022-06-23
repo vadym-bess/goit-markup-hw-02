@@ -26,32 +26,33 @@ h2,
 h3,
 h4,
 ul,
-li:{
+li {
     margin: 0;
     padding: 0;
 } 
 
+.nav-links{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
 
-ul{
-    margin-left: 0;
-    padding-left: 0;
-    margin-bottom: 0;
-    margin-top: 0;
+
+.menu-links{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+
 }
-
-.nav{
-    display: inline-block;
-}
-
-
 
 .adress-head{
-    display: inline-block;
+    display: flex;
 
 }
-
-
-
+.adress-head li:not(:last-child){
+    margin-right: 50px;
+}
 body{
     color: var(--text-color);
     background-color:var(--background-color);
@@ -62,12 +63,12 @@ body{
 }
 
 .section{
-    padding: 47px 0;
+    padding: 94px;
 }
 
 .conteiner{
     width: 100%;
-    max-width: 1170px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     }
@@ -116,12 +117,30 @@ body{
     
 .hero-button:focus {
     color: var(--secont-title-text-color);
-        }
+    }
+
+.benefits{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+
+    }
+
+.what-we-do{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+.our-team{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
 
 .description{
     margin-top: 4px;
-    margin-bottom: 0;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
     color: var(--text-color);
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -132,6 +151,7 @@ body{
 }
 
 .profesions{
+    text-align: center;
     color: var(--text-color);
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -149,6 +169,8 @@ body{
 
 .secondary-title{
     margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center;
     color: var(--title-text-color);
     font-family: 'Roboto',sans-serif;
     font-style: normal;
@@ -170,6 +192,8 @@ body{
 }
 
 .h3-title{
+    margin-bottom: 10px;
+    text-align: left;
     color: var(--title-text-color);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -180,7 +204,12 @@ body{
     text-transform: uppercase;
 }
 
+.text{
+    text-align:left ;
+}
+
 .name-title{
+    text-align: center;
     color: var(--title-text-color);
     font-family:'Roboto',sans-serif;
     font-style: normal;
@@ -192,8 +221,7 @@ body{
 }
 
 .logo{
-    display: inline-block;
-    margin-bottom: 20px;
+    display: flex;
     color: var(--accent-color);
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
@@ -204,6 +232,7 @@ body{
 }
 
 .studio{
+    display: flex;
     color: var(--title-text-color);
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
@@ -214,14 +243,16 @@ body{
 }
 
 .nav-link{
-    display: inline-block;
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
 
+.last{
+     margin-right: 0;
 }
 
 .nav-link:hover {
@@ -233,7 +264,6 @@ body{
 }
 
 .nav-link.current{
-    display: inline-block;
     color: var(--accent-color);
 }
 
@@ -242,7 +272,26 @@ ul{
     list-style: none;    
 }
 
+.nav-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.main-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.img{
+    margin-bottom: 20px;
+}
+
 .first-buttons{
+    gap: 8px;
+    margin-top: 94px;
+    margin-bottom: 50px;
     border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
@@ -264,6 +313,7 @@ ul{
     color:  var(--secont-title-text-color);
     background-color: var(--accent-color);
 }
+
 
 .tel {
     display: inline-block;
@@ -301,6 +351,17 @@ ul{
     background-color: var(--secondary-section-background);
 }
 
+.footer-logo {
+    display: flex;
+    margin-bottom: 20px;
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+}
 
 .footer-studio{
     color: var(--secont-title-text-color);
