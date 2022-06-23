@@ -33,7 +33,7 @@ li {
 
 .nav-links{
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
     flex-wrap: wrap;
     }
@@ -42,12 +42,13 @@ li {
 .menu-links{
     display: flex;
     gap: 50px;
-    align-items: center;
+    align-items: flex-start;
 
 }
 
 .adress-head{
     display: flex;
+    justify-content: right;
 
 }
 .adress-head li:not(:last-child){
