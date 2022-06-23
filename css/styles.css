@@ -373,6 +373,7 @@ ul{
 }
 
 .footer-studio{
+    margin-bottom: 20px;
     color: var(--secont-title-text-color);
 }
 
