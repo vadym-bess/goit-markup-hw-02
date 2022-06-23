@@ -38,11 +38,18 @@ li {
     flex-wrap: wrap;
     }
 
+.nav{
+    display: flex;
+    
+}
+
 
 .menu-links{
     display: flex;
     gap: 50px;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 93px;
 
 }
 
